@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "moduleResolution": "node",
+    "target": "es6",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "types",
+    "node_modules"
+  ],
+  "compileOnSave": false
+}
