@@ -6,4 +6,8 @@ export default {
   component: 'bdg-action-grup',
 } as Meta;
 
-export const Default = () => html`<p>asik</p>`;
+export const Default = () => `
+<bdg-action-group>
+  <button>Button 1</button>
+</bdg-action-group>
+`;
